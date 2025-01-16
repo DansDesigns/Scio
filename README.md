@@ -1,10 +1,10 @@
-# Scicorder_Pro
+# Scicorder_Pro Update Repo
  Linux Powered Multi-Sensor Scientific Data Recorder
  Inspired by Star Trek's Tricorder
 
 
 *NOTE, STILL IN ACTIVE DEVELOPMENT
-
+**NOTE, THIS IS THE OTA UPDATE REPO
 
 Hardware:
 ```
