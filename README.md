@@ -4,9 +4,9 @@
  Inspired by Star Trek TNG/DS9/Voyager Tricorder
 
 
-# Discover,
-# Record,
-# Learn.
+Discover,
+Record,
+Learn.
 
 
 ```
