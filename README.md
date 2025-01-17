@@ -1,13 +1,12 @@
-# Scicorder_Pro Update Repo
 
- ## Scio
+ #Scio
  Linux Powered Multi-Sensor Scientific Data Recorder
  Inspired by Star Trek TNG/DS9/Voyager Tricorder
 
 
-## Discover,
-## Record,
-## Learn.
+# Discover,
+# Record,
+# Learn.
 
 
 ```
@@ -51,7 +50,7 @@ MiCS-5524 Multi-Gas Sensor
 
 ## Functions:
 ```
-WIP = In Progress | TBS = To Be Started  | DONE = Finished dev & in usable state | R&D = Refinement Needed
+WIP = In Progress | TBS = To Be Started  | DONE = Finished dev | R&D = Refinement Needed
 -------------------------------------------------------------------------------------------------------
 Atmospheric Scan - Temperature, Pressure, Humidity, Gas Level				DONE		R&D
 Audio Spectrum - 									WIP
