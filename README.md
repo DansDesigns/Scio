@@ -49,28 +49,36 @@ MiCS-5524 Multi-Gas Sensor
 
 ## Functions:
 ```
-WIP = In Progress | TBS = To Be Started  | DONE = Finished dev | R&D = Refinement Needed
+TBS = To Be Started | WIP = In Progress | DONE = Finished Dev | R&D = Refinement Needed
 -------------------------------------------------------------------------------------------------------
-Atmospheric Scan - Temperature, Pressure, Humidity, Gas Level				DONE		R&D
+Atmospheric Scan - Temperature, Pressure, Humidity, Gas Level				DONE	R&D
 Audio Spectrum - 									WIP
-Distance Scan - Close Range & Long Range 						DONE		R&D
+Distance Scan - Close Range & Long Range 						DONE	R&D
 Database - 										WIP
-EMF - Electromagnetic and Magnetic Field						DONE		R&D
-Gyroscope & Accelerometer - 								DONE		R&D
+EMF - Electromagnetic and Magnetic Field						DONE	R&D
+Gyroscope & Accelerometer - 								DONE	R&D
 IR - Transmit, Receive & Thermal Vision							WIP
-Visible Light - Intensity, Spectrum & Spectroscopy					WIP/DONE	R&D
-UV - Index Level									DONE		R&D
+Visible Light - Intensity, Spectrum & Spectroscopy					WIP	R&D
+UV - Index Level									DONE	R&D
 Radio - Including:									
--WiFi Hotspot & Config AP - Connect to Hotspot to configure WiFi Connections		WIP
--WiFi Scanner (2.4Ghz) - Scan & Ranging of SSID						TBS
--Remote Bluetooth Sensor - Wireless Addon Sensors					WIP
--Bluetooth Scanner (2.4Ghz) - Scan & Ranging of local Bluetooth devices			TBS
--Live Web-Sensor - Displays Sensor info on a webpage on local IP			WIP
+- WiFi Hotspot & Config AP - Connect to Hotspot to configure WiFi Connections		WIP
+- WiFi Scanner (2.4Ghz) - Scan & Ranging of SSID						TBS
+- Remote Bluetooth Sensor - Wireless Addon Sensors					WIP
+- Bluetooth Scanner (2.4Ghz) - Scan & Ranging of local Bluetooth devices			TBS
+- Live Web-Sensor - Displays Sensor info on a webpage on local IP			WIP
 
 OTA Updating - Using this repo to Update on the go					WIP
-Audio Playback (Alerts, Beeps & Charge Events)						DONE		R&D
+Audio Playback (Alerts, Beeps & Charge Events)						DONE	R&D
 Backup Sensor Logs to hot-swappable USB							DONE		
 Serial control of Neopixel Status LEDs via internal ESP32C3				WIP		
+USB Device - Scan for Hazardous Files							WIP
+NFC Scanning & Emulating 								TBS
+Addon USB Extensions:
+- Multimeter (Voltage, Amperage, Resistance & Capacitance)				WIP
+- Medical Sensors (Heart-rate, Blood Oxygen, HRV, ECG, Human Presence Detection, etc)	TBS
+- Future Upgrades									TBS
 
+GPS/Quantum Inertial Measurement							TBS
+ 
 
 ```
