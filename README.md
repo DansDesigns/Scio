@@ -1,15 +1,25 @@
 # Scicorder_Pro Update Repo
 
+ ## Scio
  Linux Powered Multi-Sensor Scientific Data Recorder
- Inspired by Star Trek's Tricorder
+ Inspired by Star Trek TNG/DS9/Voyager Tricorder
 
 
-NOTE, STILL IN ACTIVE DEVELOPMENT
+## Discover,
+## Record,
+## Learn.
+
+
+```
+STILL IN ACTIVE DEVELOPMENT
+```
+
 
 
 ## Hardware:
 ```
 NanoPi Neo Air - Quad-core 1.2Ghz Allwinner-H3 with WiFi & BT, 512Mb Ram, 8Gb EMMC
+Support micro SD Card upto 128Gb (default location for Sensor Logs is Internal Storage)
 SSD1351 1.5" RGB OLED
 x4 Physical Tactile Push Buttons
 x3 Neopixel Status LEDs powered by onboard ESP32-C3F4H
@@ -41,23 +51,28 @@ MiCS-5524 Multi-Gas Sensor
 
 ## Functions:
 ```
-WIP = In Progress | TBS = To Be Started | R&D = Research needed | DONE = Finished dev & in usable state
+WIP = In Progress | TBS = To Be Started  | DONE = Finished dev & in usable state | R&D = Refinement Needed
 -------------------------------------------------------------------------------------------------------
-Atmospheric Scan - Temperature, Pressure, Humidity, Gas Level	DONE
-Audio Spectrum - WIP
-Distance Scan - Close Range & Long Range 			DONE
-Database - 
-EMF - Electromagnetic and Magnetic Field			DONE
-Gyroscope & Accelerometer - 					DONE
-IR - Transmit, Receive & Thermal Vision				WIP
-Visible Light - Intensity, Spectrum & Spectroscopy		WIP/DONE
-UV - Index Level						DONE
-Radio - Including:
--WiFi Hotspot & Config AP - Connect to Hotspot to configure WiFi Connections
--WiFi Scanner (2.4Ghz) - Scan & Ranging of SSID
--Remote Bluetooth Sensor - Wireless Addon Sensors
--Bluetooth Scanner (2.4Ghz) - Scan & Ranging of local Bluetooth devices
--Live Web-Sensor - Displays Sensor info on a webpage on local IP
-OTA Updating - Using this repo to Update on the go
+Atmospheric Scan - Temperature, Pressure, Humidity, Gas Level				DONE		R&D
+Audio Spectrum - 									WIP
+Distance Scan - Close Range & Long Range 						DONE		R&D
+Database - 										WIP
+EMF - Electromagnetic and Magnetic Field						DONE		R&D
+Gyroscope & Accelerometer - 								DONE		R&D
+IR - Transmit, Receive & Thermal Vision							WIP
+Visible Light - Intensity, Spectrum & Spectroscopy					WIP/DONE	R&D
+UV - Index Level									DONE		R&D
+Radio - Including:									
+-WiFi Hotspot & Config AP - Connect to Hotspot to configure WiFi Connections		WIP
+-WiFi Scanner (2.4Ghz) - Scan & Ranging of SSID						TBS
+-Remote Bluetooth Sensor - Wireless Addon Sensors					WIP
+-Bluetooth Scanner (2.4Ghz) - Scan & Ranging of local Bluetooth devices			TBS
+-Live Web-Sensor - Displays Sensor info on a webpage on local IP			WIP
+
+OTA Updating - Using this repo to Update on the go					WIP
+Audio Playback (Alerts, Beeps & Charge Events)						DONE		R&D
+Backup Sensor Logs to hot-swappable USB							DONE		
+Serial control of Neopixel Status LEDs via internal ESP32C3				WIP		
+
 
 ```
