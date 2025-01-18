@@ -24,6 +24,7 @@ x3 Neopixel Status LEDs powered by onboard ESP32-C3F4H
 MPR121 Capacitive Touch Controller
 MAX17048 LiPo Battery Monitor
 3.7v 2000mAh LiPo
+TP4056x LiPo Charger
 5v 1.2A Power Converter
 MAX98357A I2S Audio Amplifier
 8 Ohm 2 Watt Speaker
