@@ -14,7 +14,7 @@ def refresh():  # refresh or update oled display frame buffer
     fd.write(oled.convert(bpp, 0).get_buffer())  # convert & write to screen
     fd.close()  # close file
    # print(" ")  # refresh screen by printing a space on console.. without this cpu usage is >60%! & oled doesnt update
-    clock.tick(100)
+    clock.tick(60)
     #pygame.display.flip()
     # GPIO.output(LED_STAT,False)
 
