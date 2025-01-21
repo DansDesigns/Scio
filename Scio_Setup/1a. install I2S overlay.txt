@@ -1,0 +1,98 @@
+from https://forum.armbian.com/topic/9009-info-friendlyarm-pcm5102a-hat-with-nanopi-neo-under-mainline-4xx-and-dev-5xx/
+
+- enable (from disabled to okay) i2s@1c22000 in .dtb (decomple and compile):
+
+decompile:
+(NanoPi Neo):
+
+dtc -I dtb -O dts /boot/dtb/sun8i-h3-nanopi-neo.dtb -o /boot/dtb/sun8i-h3-nanopi-neo.dts
+
+(NanoPi Neo Air):
+
+dtc -I dtb -O dts /boot/dtb/sun8i-h3-nanopi-neo-air.dtb -o /boot/dtb/sun8i-h3-nanopi-neo-air.dts
+
+nano /boot/dtb/sun8i-h3-nanopi-neo.dts
+
+ 
+- change: status from "disabled" to "okay"
+
+---------------------------------------------------------------------------------------
+FROM
+ 
+
+                i2s@1c22000 {
+                        #sound-dai-cells = <0x0>;
+                        compatible = "allwinner,sun8i-h3-i2s";
+                        reg = <0x1c22000 0x400>;
+                        interrupts = <0x0 0xd 0x4>;
+                        clocks = <0x3 0x38 0x3 0x54>;
+                        clock-names = "apb", "mod";
+                        dmas = <0x13 0x3 0x13 0x3>;
+                        resets = <0x3 0x2b>;
+                        dma-names = "rx", "tx";
+                        status = "disabled";
+                        phandle = <0x4e>;
+ 
+
+
+TO:
+ 
+
+                i2s@1c22000 {
+                        #sound-dai-cells = <0x0>;
+                        compatible = "allwinner,sun8i-h3-i2s";
+                        reg = <0x1c22000 0x400>;
+                        interrupts = <0x0 0xd 0x4>;
+                        clocks = <0x3 0x38 0x3 0x54>;
+                        clock-names = "apb", "mod";
+                        dmas = <0x13 0x3 0x13 0x3>;
+                        resets = <0x3 0x2b>;
+                        dma-names = "rx", "tx";
+                        status = "okay";
+                        phandle = <0x4e>;
+----------------------------------------------------------------------------------------
+
+compile:
+(NanoPi Neo):
+
+dtc -I dts -O dtb /boot/dtb/sun8i-h3-nanopi-neo.dts -o /boot/dtb/sun8i-h3-nanopi-neo.dtb
+
+
+(NanoPi Neo Air):
+
+dtc -I dts -O dtb /boot/dtb/sun8i-h3-nanopi-neo-air.dts -o /boot/dtb/sun8i-h3-nanopi-neo-air.dtb
+
+- build / addoverlay:
+
+armbian-add-overlay ./sun8i-h3-I2S-out.dts
+
+- create /etc/asound.conf
+
+nano /etc/asound.conf
+
+-add:
+
+pcm.!default {
+    type hw
+    card 0
+    device 0
+}
+
+ctl.!default {
+    type hw
+    card 0
+}
+
+- save & close
+
+- apt-mark hold linux-dtb-dev-sunxi
+
+- reboot
+
+- speaker Test:
+
+speaker-test -c2
+
+
+
+ENJOY!

@@ -266,5 +266,26 @@ def Gyro():
     refresh()
 
 
+def ip():
+    ip_i = os.popen("ip r | grep -i src").read()
+    ip_i = ip_i.split("src ")[1]
+    ip_i = ip_i.split(" metric")[0]
+    return ip_i
+
+
+def Wifi_feed():
+    oled.fill(black)
+
+    ip_i = os.popen("ip r | grep -i src").read()
+    ip_i = ip_i.split("src ")[1]
+    ip_i = ip_i.split(" metric")[0]
+
+    draw_text2("WiFi Sensor Feed:", 18, white, 0, 8)
+    draw_text2("Active", 22, green, 10, 32)
+    draw_text2(f"{ip_i}", 22, blue, 10, 62)
+
+    # add wifi webserver here
+
+    refresh()
 
     # EOF

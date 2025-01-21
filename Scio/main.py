@@ -152,22 +152,29 @@ while True:
         # oled.fill(black)
         config.mode = 'G'
 
+    if cap.is_touched(4):
+        sonar_beep.play()
+        # GPIO.output(LED_STAT, False)
+        # GPIO.output(LED_STAT, True)
+        # time.sleep(0.3)
+        # GPIO.output(LED_STAT, False)
+        # oled.fill(black)
+        config.mode = 'W'
+
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~ Modes: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     if config.mode == 'A':
         Atmos()
         refresh()  # must be called to refresh the screen
 
-
     if config.mode == 'B':
         Menu_device() # change to BIO Sensors
         refresh()  # must be called to refresh the screen
 
-
     if config.mode == 'C':
         copy_to_usb()
         refresh()  # must be called to refresh the screen
-
 
     if config.mode == 'D':
         Distance()
@@ -177,47 +184,46 @@ while True:
         Gyro()
         refresh()  # must be called to refresh the screen
 
-
     if config.mode == 'I':
         Info()
         refresh()  # must be called to refresh the screen
-
 
     if config.mode == 'M':
         Menu_device()
         refresh()  # must be called to refresh the screen
 
-
     if config.mode == 'S':
         Stats()
         refresh()  # must be called to refresh the screen
-
 
     if config.mode == 'X':
         # turns on blinking curser on console:
         os.system('setterm -cursor on')
         pygame.QUIT()
 
+    if config.mode == 'W':
+        Wifi_feed()
+        refresh()  # must be called to refresh the screen
 
     if config.mode == 'Y':
         Saved()
         refresh()  # must be called to refresh the screen
 
-
     if config.mode == 'Z':
         Welcome()
         refresh()  # must be called to refresh the screen
 
-    if config.mode =='@':
+# ~~~~~~~~~~~~~~~~~~~~~~~~~ Tests ~~~~~~~~~~~~~~~~~~~~~~~~
+
+    if config.mode == '@':
         oled.fill(black)
         draw_text("button low", 13, grey, 5, 30)
         refresh()
 
-    if config.mode =='~':
+    if config.mode == '~':
         oled.fill(black)
         draw_text("button high", 13, green, 5, 30)
         refresh()
-
 
     last_touched = current_touched
     refresh()  # must be called to refresh the screen

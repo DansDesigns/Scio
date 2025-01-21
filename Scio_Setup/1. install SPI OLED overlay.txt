@@ -1,0 +1,28 @@
+
+connect RGB OLED as shown:
+
+
+OLED Pin | NanoPi Neo Pin
+VCC--------3.3V-------17
+GND--------GND--------20
+CS---------24---------24 (PC3)
+RESET------12---------12 (PA6)
+DC/RS------18---------18 (PG9)
+MOSI-------19---------19 (PC0)
+SCK--------23---------23 (PC2)
+
+
+copy ssd1351-spi-overlay-h3.dts to home dir
+
+sudo armbian-add-overlay ssd1351-spi-overlay-h3.dts
+
+enable the spi0 in armbian-config
+
+or add
+
+param_spidev_spi_bus=0
+param_spidev_max_freq=4500000
+
+to /boot/armbianEnv.txt
+
+

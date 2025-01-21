@@ -1,0 +1,7 @@
+Try this simple line, It will terminate all script.py:
+
+pkill -9 -f script.py
+
+eg:
+
+pkill -9 -f /home/pi/Scio/main.py

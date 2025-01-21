@@ -1,0 +1,4 @@
+
+edit ~/.bashrc and at end of file, add:
+
+sudo python3 /home/pi/Scio/main.py
