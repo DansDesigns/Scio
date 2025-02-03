@@ -20,7 +20,7 @@ Discover, Record, Learn.
 ```
 LuckFox Core1106 RV1106G3 Linux SBC
 	Quad-Core 1.2Ghz CPU with 256Mb DDR3L, 8Gb EMMC, Wifi6 & BLE/BT5.2
-	with dedicated NPU offering 1TOPS for Internal RNN's
+	with dedicated RKNPU offering 1TOPS for Internal RNN's & supporting ONNX
 
 ESP32-C3-F4H microController (Programmable over Internal USB Bus)
 SSD1351 1.5" RGB OLED
@@ -34,6 +34,7 @@ TP4056x LiPo Charger
 MAX98357A I2S Audio Amplifier
 8 Ohm 2 Watt Speaker
 PCF8574RGTR I2C Extender
+
 ```
 
 ## Sensors:
@@ -93,5 +94,6 @@ Private Directional Speaker using miniature phased arrays
 Bluetooth Hands-Free-Protocol & Head-Set-Protocol for Android/iOS connection
 26Ghz/60Ghz mmWave Scanning
 Custom Integrated Neural Network for increased Sensor Resolution and Data Analysis
+Image Recognition RNN designed for Plant/Insect/Rock Identification
 
 ```
