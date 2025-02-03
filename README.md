@@ -54,8 +54,7 @@ MiCS-5524 Multi-Gas Sensor
 ```
 
 ## Functions:
-
-
+```
 TBS = To Be Started | WIP = In Progress | DONE = Finished Dev | R&D = Refinement Needed
 -------------------------------------------------------------------------------------------------------
 * Atmospheric Scan - Temperature, Pressure, Humidity, Gas Level					DONE	R&D
@@ -85,7 +84,7 @@ Addon USB Extensions:
 	- Medical Sensors (Heart-rate, Blood Oxygen, HRV, ECG, Human Presence Detection, etc)	WIP
 	- Future Upgrades										TBS
 
-
+```
 
 ## Future Upgrade Plans:
 ```
