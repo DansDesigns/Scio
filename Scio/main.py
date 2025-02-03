@@ -97,21 +97,20 @@ while True:
     humidity = round(bme280.get_humidity(), 2)
 
 
-
 # ~~~~~~~~~~~~~~~~~~~~~~~~~ Device Sleep Check: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # PG11 as Sleep/Wake Pin
 # pull it LOW (magnet away) to wake (needs pull-down resistor?)
 # pull HIGH (magnet near) to sleep (needs pull-up resistor?)
 
     if GPIO.input(button_wake) == GPIO.HIGH:
-       # config.mode='~'
+        # config.mode='~'
         oled.fill(black)
         os.system("echo +5 > /sys/class/rtc/rtc0/wakealarm")
         os.system("echo mem > /sys/power/state")
         refresh()
 
     elif GPIO.input(button_wake) == GPIO.LOW:
-        #config.mode='@'
+        # config.mode='@'
         pass
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~ Touch Input: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -161,6 +160,18 @@ while True:
         # oled.fill(black)
         config.mode = 'W'
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~ Side Buttons: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    if GPIO.input(button_1) == GPIO.LOW:
+        sonar_beep.play()
+
+    if GPIO.input(button_2) == GPIO.LOW:
+        sonar_beep.play()
+
+    if GPIO.input(button_3) == GPIO.LOW:
+        sonar_beep.play()
+
+    if GPIO.input(button_4) == GPIO.LOW:
+        sonar_beep.play()
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~ Modes: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

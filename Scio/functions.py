@@ -44,6 +44,45 @@ def save_to_log(a,b,c,d):
     refresh()
     pygame.time.wait(900)
 
+
+def save_to_log10s(a,b,c,d):
+    today = datetime.today()
+    now = datetime.now()
+
+    pygame.draw.rect(oled, grey_blue, pygame.Rect(0, 60, 128, 25))
+    draw_text2("Beginning 10s", 16, black, 15, 64)
+    draw_text2("Data Log", 16, black, 15, 64)
+    refresh()
+
+    # Open ~/sensorlogs/ & make/append log with today's date as name & date&time as first entry
+    # savefile = open("/home/pi/savefile.txt", 'a')    # 'w' for write, 'a' for append, 'r' for read-only
+    savefile = open("/home/pi/sensorlogs/log-" + (today.strftime("%d-%m-%y")) + ".txt", 'a')  # 'w' for write, 'a' for append, 'r' for read-only
+    # savefile.write(today.strftime("%d-%m-%y") + " @ " + now.strftime("%H:%M:%S") + " | ")
+
+    savefile.write("\n")
+    savefile.write("--------------------------------10 Second Recording-----------------------------------")
+    i = 1
+    while i < 10:
+        savefile.write(today.strftime("%d-%m-%y") + " @ " + now.strftime("%H:%M:%S") + " | ")
+        savefile.write(a)
+        savefile.write(b)
+        savefile.write(c)
+        savefile.write(d)
+        savefile.write("\n")
+        pygame.time.wait(900)
+        i += 1
+
+    # Separate entries with lots of lines
+    savefile.write("\n")
+    savefile.write("------------------------------------------------------------------------------------")
+    savefile.write("\n")
+    savefile.close()
+    pygame.draw.rect(oled, grey_blue, pygame.Rect(0, 60, 128, 25))
+    draw_text2("Data Saved!", 16, black, 15, 64)
+    refresh()
+    pygame.time.wait(900)
+
+
 def draw_text(text: str, size: int, col: list, x: int, y: int) -> None:
     """
     A simple function for displaying text strings on the game screen.

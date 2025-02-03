@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a09994-277f-4835-8bb5-31fb0fae470b" name="Changes" comment="" />
+    <list default="true" id="c8a09994-277f-4835-8bb5-31fb0fae470b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Scio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OPi.GPIO/bin/make_release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/OPi.GPIO/bin/make_release.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_TCA9548A_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_TCA9548A_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example_livegraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example_livegraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_multi_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_multi_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usbmount/00_create_model_symlink" beforeDir="false" afterPath="$PROJECT_DIR$/usbmount/00_create_model_symlink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usbmount/00_remove_model_symlink" beforeDir="false" afterPath="$PROJECT_DIR$/usbmount/00_remove_model_symlink" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usbmount/debian/rules" beforeDir="false" afterPath="$PROJECT_DIR$/usbmount/debian/rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usbmount/usbmount" beforeDir="false" afterPath="$PROJECT_DIR$/usbmount/usbmount" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -17,6 +44,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ruIHm2c1irj3pRM5RyVcY85kwe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +55,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

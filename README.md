@@ -83,3 +83,11 @@ GPS/Quantum Inertial Measurement							TBS
  
 
 ```
+
+## Future Upgrade Plans:
+```
+Private Directional Speaker using miniature phased arrays
+Bluetooth Hands-Free-Protocol & Head-Set-Protocol for Android/iOS connection
+26Ghz/60Ghz mmWave Scanning
+
+```
