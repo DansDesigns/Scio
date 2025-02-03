@@ -19,7 +19,8 @@ Discover, Record, Learn.
 ## Hardware:
 ```
 LuckFox Core1106 RV1106G3 Linux SBC
-- Quad-Core 1.2Ghz CPU with dedicated NPU offering 1TOPS, 256Mb DDR3L, 8Gb EMMC, Wifi6 & BLE/BT5.2
+	Quad-Core 1.2Ghz CPU with 256Mb DDR3L, 8Gb EMMC, Wifi6 & BLE/BT5.2
+	and dedicated NPU offering 1TOPS
 ESP32-C3-F4H microController (Internal USB Bus)
 SSD1351 1.5" RGB OLED
 x4 Physical Tactile Push Buttons
