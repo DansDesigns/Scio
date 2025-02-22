@@ -90,8 +90,6 @@ Addon USB Extensions:
 
 ## Future Upgrade Plans:
 ```
-Private Directional Speaker using miniature phased arrays
-Bluetooth Hands-Free-Protocol & Head-Set-Protocol for Android/iOS connection
 26Ghz/60Ghz mmWave Scanning
 Custom Integrated Neural Network for increased Sensor Resolution and Data Analysis
 Image Recognition RNN designed for Plant/Insect/Rock Identification
