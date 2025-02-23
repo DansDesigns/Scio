@@ -39,6 +39,7 @@ PCF8574RGTR I2C Extender
 
 ## Sensors:
 ```
+INMP441 I2S Microphone
 MPU6050 6-axis Gyroscope & IMU
 BME280 Temperature, Pressure & Humidity Sensor
 AGM8833 IR Thermal Camera

@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8a09994-277f-4835-8bb5-31fb0fae470b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Scio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Scio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OPi.GPIO/bin/make_release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/OPi.GPIO/bin/make_release.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X.py" afterDir="false" />
@@ -15,11 +13,6 @@
       <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example_livegraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_example_livegraph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_multi_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/VL53L0X_rasp_python/python/VL53L0X_multi_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usbmount/00_create_model_symlink" beforeDir="false" afterPath="$PROJECT_DIR$/usbmount/00_create_model_symlink" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usbmount/00_remove_model_symlink" beforeDir="false" afterPath="$PROJECT_DIR$/usbmount/00_remove_model_symlink" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usbmount/debian/rules" beforeDir="false" afterPath="$PROJECT_DIR$/usbmount/debian/rules" afterDir="false" />
@@ -51,13 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
